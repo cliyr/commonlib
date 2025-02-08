@@ -97,20 +97,20 @@ TCPClient和TCPServer
 - 部分常用转换器在Converters类中提供静态实例
 
 **Manager**
--键盘焦点管理
--PasswordBox绑定
--PasswordBox水印
--TextBox水印
+- 键盘焦点管理
+- PasswordBox绑定
+- PasswordBox水印
+- TextBox水印
 
 **MarkupExtensions**
--枚举绑定获取（用于Commbox自动下拉）
--图像灰度转换
--SegoeMDL2图标拓展
--Shield按钮图标拓展
+- 枚举绑定获取（用于Commbox自动下拉）
+- 图像灰度转换
+- SegoeMDL2图标拓展
+- Shield按钮图标拓展
 
 ## 7.其它函数
--开机自动启动
--单例模式
--管理员权限验证
--文件字符合法性验证
--窗口顶部弹出式通知
+- 开机自动启动
+- 单例模式
+- 管理员权限验证
+- 文件字符合法性验证
+- 窗口顶部弹出式通知
