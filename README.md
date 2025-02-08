@@ -1,4 +1,5 @@
 **上位机**软件常用功能封装库，无任何第三方依赖，简单易用的Windows平台C#上位机及机器视觉开发常用功能封装库，并做到跨平台兼容。未列出所有功能，请自行体验。有问题请提issue。
+该库为个人私用库，部分代码为初学C#早期时封装自网络，现绝大多数已经弃用，将在下个版本标记Obsolete，并尽快删除，如果侵权，请提issue，将即刻删除。
 
 # Pcy.Common
 通用库，使用netstandard2.0开发，并提供net8-windows版本，可跨平台使用，兼容.NET8及更新版本的AOT（XML自动配置不支持AOT）。
@@ -60,16 +61,10 @@ TCPClient和TCPServer
 **Authority** 提供了文件的权限管理系统，并提供了用户登录、用户管理等基础操作界面。支持Wpf的绑定。
 
 ### 4. 常用控件
-
-**AppClosing** 类提供了在应用程序关闭时显示提示窗口的功能。
-
-**控件扩展** 提供了多种Winform自定义控件，如CycleText（循环滚动文本控件）、LoadingX（动态加载图标控件）、MoveText（走马灯文本控件）等。
-
-**浮动层控件**FloatLayerBase类提供了浮动层控件的基类，支持自定义边框样式、拖动等功能。
-
-**等待窗口** WaitingForm类提供了在执行任务时显示等待窗口的功能。（建议通过TaskProgressWattingDialog实现等待窗口功能）
-
-**ListView扩展**ListViewExt类提供了默认开启双缓冲显示的Winform ListView控件。
+提供了部分常用控件拓展
+- AppClosing 类提供了在应用程序关闭时显示提示窗口的功能。
+- ShowRenameDialog 快速输入单行文本
+- WaitCursor 使用using自动控制鼠标变化
 
 ### 5. 日志管理
 
@@ -83,8 +78,7 @@ TCPClient和TCPServer
 - 滚动文本MoveText
 - 数字输入框NumberTextbox
 - 基于canvas的无边界缩放控件ZoomViewer
-- 日期时间选择器DataTimePicker
-- 简单的加载中控件ProgressRing
+- 日期时间选择器DataTimePicker（修改自：https://github.com/jiangyan219/DateTimePicker）
 - 常用控件的主题
 - 基于FlashWindowEx Win32 API的扩展方法
   
