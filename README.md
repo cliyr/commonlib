@@ -1,5 +1,5 @@
-**上位机**软件常用功能封装库，无任何第三方依赖，简单易用的Windows平台C#上位机及机器视觉开发常用功能封装库，并做到跨平台兼容。未列出所有功能，请自行体验。有问题请提issue。
-该库为个人私用库，部分代码为初学C#早期时封装自网络，现绝大多数已经弃用，将在下个版本标记Obsolete，并尽快删除，如果侵权，请提issue，将即刻删除。
+上位机开发常用功能封装库，无任何第三方依赖，简单易用的Windows平台C#上位机及机器视觉开发常用功能封装库，并做到跨平台兼容。未列出所有功能，请自行体验。有问题请提issue。
+- 该库为个人私用库，部分代码为初学C#早期时封装自网络，现绝大多数已经弃用，将在下个版本标记Obsolete，并尽快删除，如果侵权，请提issue，将即刻删除。
 
 # Pcy.Common
 通用库，使用netstandard2.0开发，并提供net8-windows版本，可跨平台使用，兼容.NET8及更新版本的AOT（XML自动配置不支持AOT）。
@@ -98,7 +98,7 @@ TCPClient和TCPServer
 
 **MarkupExtensions**
 - 枚举绑定获取（用于Commbox自动下拉）
-- 图像灰度转换
+- 图像灰度转换（Based on the version by Thomas LEBRUN (http://blogs.developpeur.org/tom)）
 - SegoeMDL2图标拓展
 - Shield按钮图标拓展
 
