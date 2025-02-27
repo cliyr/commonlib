@@ -81,6 +81,7 @@ TCPClient和TCPServer
 - 日期时间选择器DataTimePicker（修改自：https://github.com/jiangyan219/DateTimePicker）
 - 常用控件的主题
 - 基于FlashWindowEx Win32 API的扩展方法
+- Notice通知控件，修改自https://handyorg.github.io/handycontrol/的Growl，提供修改后的源码
   
 **转换器**
 - 布尔转Visibility
